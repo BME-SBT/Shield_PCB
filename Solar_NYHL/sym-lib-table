@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name solarboat)(type Legacy)(uri ${KIPRJMOD}/solarboat.lib)(options "")(descr ""))
+  (lib (name Solar_NYHL-rescue)(type Legacy)(uri ${KIPRJMOD}/Solar_NYHL-rescue.lib)(options "")(descr ""))
+)

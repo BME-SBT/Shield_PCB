@@ -15,21 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Solar_NYHL-rescue:Arduino_Mega2560_Shield-arduino XA?
-U 1 1 5E82139A
-P 3250 3450
-F 0 "XA?" H 3250 1069 60  0000 C CNN
-F 1 "Arduino_Mega2560_Shield" H 3250 963 60  0000 C CNN
-F 2 "Arduino:Arduino_Mega2560_Shield" H 3950 6200 60  0001 C CNN
-F 3 "https://store.arduino.cc/arduino-mega-2560-rev3" H 3950 6200 60  0001 C CNN
-	1    3250 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x18_Counter_Clockwise J?
+L Connector_Generic:Conn_02x18_Counter_Clockwise J4
 U 1 1 5E8CC5B8
 P 3650 6650
-F 0 "J?" V 3654 5663 50  0000 R CNN
+F 0 "J4" V 3654 5663 50  0000 R CNN
 F 1 "Conn_02x18_Counter_Clockwise" V 3745 5663 50  0000 R CNN
 F 2 "" H 3650 6650 50  0001 C CNN
 F 3 "~" H 3650 6650 50  0001 C CNN
@@ -45,8 +34,6 @@ Text GLabel 1500 1950 0    39   UnSpc ~ 0
 IOREF
 Text GLabel 1500 2050 0    39   UnSpc ~ 0
 RESET
-Text GLabel 1500 2150 0    39   UnSpc ~ 0
-3V3a
 Text GLabel 1500 2250 0    39   UnSpc ~ 0
 5Va
 Text GLabel 1500 2350 0    39   UnSpc ~ 0
@@ -71,30 +58,22 @@ Text GLabel 1450 3500 0    39   UnSpc ~ 0
 A6
 Text GLabel 1450 3600 0    39   UnSpc ~ 0
 A7
-Text GLabel 1450 4200 0    39   UnSpc ~ 0
+Text GLabel 1100 4200 0    39   UnSpc ~ 0
 A8
-Text GLabel 1450 4300 0    39   UnSpc ~ 0
+Text GLabel 1100 4300 0    39   UnSpc ~ 0
 A9
-Text GLabel 1450 4400 0    39   UnSpc ~ 0
+Text GLabel 1100 4400 0    39   UnSpc ~ 0
 A10
-Text GLabel 1450 4500 0    39   UnSpc ~ 0
+Text GLabel 1100 4500 0    39   UnSpc ~ 0
 A11
-Text GLabel 1450 4600 0    39   UnSpc ~ 0
+Text GLabel 1100 4600 0    39   UnSpc ~ 0
 A12
-Text GLabel 1450 4700 0    39   UnSpc ~ 0
+Text GLabel 1100 4700 0    39   UnSpc ~ 0
 A13
-Text GLabel 1450 4800 0    39   UnSpc ~ 0
+Text GLabel 1100 4800 0    39   UnSpc ~ 0
 A14
-Text GLabel 1450 4900 0    39   UnSpc ~ 0
+Text GLabel 1100 4900 0    39   UnSpc ~ 0
 A15
-Text GLabel 2750 6450 1    39   UnSpc ~ 0
-GNDc
-Text GLabel 2750 6950 3    39   UnSpc ~ 0
-GNDd
-Text GLabel 2850 6950 3    39   UnSpc ~ 0
-D53
-Text GLabel 2950 6950 3    39   UnSpc ~ 0
-D51
 Text GLabel 3050 6950 3    39   UnSpc ~ 0
 D49
 Text GLabel 3150 6950 3    39   UnSpc ~ 0
@@ -121,12 +100,6 @@ Text GLabel 4150 6950 3    39   UnSpc ~ 0
 D27
 Text GLabel 4250 6950 3    39   UnSpc ~ 0
 D25
-Text GLabel 4350 6950 3    39   UnSpc ~ 0
-D23
-Text GLabel 4450 6950 3    39   UnSpc ~ 0
-5Vb
-Text GLabel 4450 6450 1    39   UnSpc ~ 0
-5Vc
 Text GLabel 4350 6450 1    39   UnSpc ~ 0
 D22
 Text GLabel 4250 6450 1    39   UnSpc ~ 0
@@ -155,18 +128,6 @@ Text GLabel 3150 6450 1    39   UnSpc ~ 0
 D46
 Text GLabel 3050 6450 1    39   UnSpc ~ 0
 D48
-Text GLabel 2950 6450 1    39   UnSpc ~ 0
-D52
-Text GLabel 2850 6450 1    39   UnSpc ~ 0
-D52
-Text GLabel 5400 5000 2    39   UnSpc ~ 0
-D21
-Text GLabel 5400 4900 2    39   UnSpc ~ 0
-D20
-Text GLabel 5400 4800 2    39   UnSpc ~ 0
-D19
-Text GLabel 5400 4700 2    39   UnSpc ~ 0
-D18
 Text GLabel 5400 4600 2    39   UnSpc ~ 0
 D17
 Text GLabel 5400 4500 2    39   UnSpc ~ 0
@@ -192,10 +153,10 @@ D6
 Text GLabel 5400 3050 2    39   UnSpc ~ 0
 D7
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J3
 U 1 1 5E8FD07A
 P 1700 2150
-F 0 "J?" H 1780 2142 50  0000 L CNN
+F 0 "J3" H 1780 2142 50  0000 L CNN
 F 1 "Conn_01x08" H 1780 2051 50  0000 L CNN
 F 2 "" H 1700 2150 50  0001 C CNN
 F 3 "~" H 1700 2150 50  0001 C CNN
@@ -203,10 +164,10 @@ F 3 "~" H 1700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J5
 U 1 1 5E8FE8BD
 P 5200 3450
-F 0 "J?" H 5118 2825 50  0000 C CNN
+F 0 "J5" H 5118 2825 50  0000 C CNN
 F 1 "Conn_01x08" H 5118 2916 50  0000 C CNN
 F 2 "" H 5200 3450 50  0001 C CNN
 F 3 "~" H 5200 3450 50  0001 C CNN
@@ -214,10 +175,10 @@ F 3 "~" H 5200 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J6
 U 1 1 5E8FEC15
 P 5200 4700
-F 0 "J?" H 5118 4075 50  0000 C CNN
+F 0 "J6" H 5118 4075 50  0000 C CNN
 F 1 "Conn_01x08" H 5118 4166 50  0000 C CNN
 F 2 "" H 5200 4700 50  0001 C CNN
 F 3 "~" H 5200 4700 50  0001 C CNN
@@ -225,21 +186,21 @@ F 3 "~" H 5200 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J2
 U 1 1 5E901722
-P 1650 4500
-F 0 "J?" H 1568 3875 50  0000 C CNN
-F 1 "Conn_01x08" H 1568 3966 50  0000 C CNN
-F 2 "" H 1650 4500 50  0001 C CNN
-F 3 "~" H 1650 4500 50  0001 C CNN
-	1    1650 4500
+P 1300 4500
+F 0 "J2" H 1218 3875 50  0000 C CNN
+F 1 "Conn_01x08" H 1218 3966 50  0000 C CNN
+F 2 "" H 1300 4500 50  0001 C CNN
+F 3 "~" H 1300 4500 50  0001 C CNN
+	1    1300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J1
 U 1 1 5E902224
 P 1650 3200
-F 0 "J?" H 1568 2575 50  0000 C CNN
+F 0 "J1" H 1568 2575 50  0000 C CNN
 F 1 "Conn_01x08" H 1568 2666 50  0000 C CNN
 F 2 "" H 1650 3200 50  0001 C CNN
 F 3 "~" H 1650 3200 50  0001 C CNN
@@ -247,41 +208,39 @@ F 3 "~" H 1650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J7
 U 1 1 5E908E9D
-P 5250 2100
-F 0 "J?" H 5168 1375 50  0000 C CNN
-F 1 "Conn_01x10" H 5168 1466 50  0000 C CNN
-F 2 "" H 5250 2100 50  0001 C CNN
-F 3 "~" H 5250 2100 50  0001 C CNN
-	1    5250 2100
+P 5650 2100
+F 0 "J7" H 5568 1375 50  0000 C CNN
+F 1 "Conn_01x10" H 5568 1466 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 C CNN
+F 3 "~" H 5650 2100 50  0001 C CNN
+	1    5650 2100
 	-1   0    0    1   
 $EndComp
-Text GLabel 5450 2500 2    39   UnSpc ~ 0
+Text GLabel 5850 2500 2    39   UnSpc ~ 0
 D8
-Text GLabel 5450 2400 2    39   UnSpc ~ 0
+Text GLabel 5850 2400 2    39   UnSpc ~ 0
 D9
-Text GLabel 5450 2300 2    39   UnSpc ~ 0
+Text GLabel 5850 2300 2    39   UnSpc ~ 0
 D10
-Text GLabel 5450 2200 2    39   UnSpc ~ 0
+Text GLabel 5850 2200 2    39   UnSpc ~ 0
 D11
-Text GLabel 5450 2100 2    39   UnSpc ~ 0
+Text GLabel 5850 2100 2    39   UnSpc ~ 0
 D12
-Text GLabel 5450 2000 2    39   UnSpc ~ 0
+Text GLabel 5850 2000 2    39   UnSpc ~ 0
 D13
-Text GLabel 5450 1900 2    39   UnSpc ~ 0
-GNDe
-Text GLabel 5450 1800 2    39   UnSpc ~ 0
+Text GLabel 5850 1800 2    39   UnSpc ~ 0
 AREF
-Text GLabel 5450 1700 2    39   UnSpc ~ 0
+Text GLabel 5850 1700 2    39   UnSpc ~ 0
 PD1
-Text GLabel 5450 1600 2    39   UnSpc ~ 0
+Text GLabel 5850 1600 2    39   UnSpc ~ 0
 PD0
 $Comp
-L Connector:Screw_Terminal_01x05 J?
+L Connector:Screw_Terminal_01x05 J8
 U 1 1 5E8CC6F6
 P 5300 5850
-F 0 "J?" V 5264 5562 50  0000 R CNN
+F 0 "J8" V 5264 5562 50  0000 R CNN
 F 1 "Screw_Terminal_01x05" V 5173 5562 50  0000 R CNN
 F 2 "" H 5300 5850 50  0001 C CNN
 F 3 "~" H 5300 5850 50  0001 C CNN
@@ -289,36 +248,364 @@ F 3 "~" H 5300 5850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L solarboat:Bluetooth_HM-10 U?
+L solarboat:Bluetooth_HM-10 U1
 U 1 1 5E91FEEF
-P 6750 4450
-F 0 "U?" H 6808 4975 50  0000 C CNN
-F 1 "Bluetooth_HM-10" H 6808 4884 50  0000 C CNN
-F 2 "" H 6750 4600 50  0001 C CNN
-F 3 "" H 6750 4600 50  0001 C CNN
-	1    6750 4450
-	1    0    0    -1  
+P 3250 3600
+F 0 "U1" H 3308 4125 50  0000 C CNN
+F 1 "Bluetooth_HM-10" H 3308 4034 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3600
+	0    -1   -1   0   
 $EndComp
 $Comp
-L solarboat:CAN_modul U?
+L solarboat:CAN_modul U2
 U 1 1 5E920B8F
-P 7000 2750
-F 0 "U?" H 6322 2796 50  0000 R CNN
-F 1 "CAN_modul" H 6322 2705 50  0000 R CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "" H 7350 3050 50  0001 C CNN
-	1    7000 2750
+P 3100 5200
+F 0 "U2" H 2422 5246 50  0000 R CNN
+F 1 "CAN_modul" H 2422 5155 50  0000 R CNN
+F 2 "" H 3450 5500 50  0001 C CNN
+F 3 "" H 3450 5500 50  0001 C CNN
+	1    3100 5200
+	-1   0    0    1   
+$EndComp
+Text Notes 5100 6600 1    50   ~ 0
+UART1_RxD
+Text Notes 5250 6600 1    50   ~ 0
+UART2_TxD
+Text Notes 5350 6400 1    50   ~ 0
+Analog1
+Text Notes 5450 6400 1    50   ~ 0
+Analog2
+Text Notes 5600 6350 1    50   ~ 0
+PWM
+NoConn ~ 2950 2900
+NoConn ~ 3450 2900
+Text Notes 5600 4800 0    20   ~ 0
+RXD1, INT2 (D19)
+Text Notes 5550 4700 0    20   ~ 0
+TXD1, INT3 (D18)
+NoConn ~ 2400 5650
+Text Notes 2350 5500 2    20   ~ 0
+arduino SCK
+Text Notes 2300 5350 2    20   ~ 0
+arduino MOSI
+Text Notes 2300 5200 2    20   ~ 0
+arduino MISO
+Text Notes 2300 5050 2    20   ~ 0
+arduino SS
+NoConn ~ 3200 4550
+NoConn ~ 3000 4550
+NoConn ~ 3250 5850
+NoConn ~ 3000 5850
+Wire Wire Line
+	2850 6450 2850 6100
+Wire Wire Line
+	2850 6100 2250 6100
+Wire Wire Line
+	2250 6100 2250 5500
+Wire Wire Line
+	2250 5500 2400 5500
+Wire Wire Line
+	2950 6950 2950 7200
+Wire Wire Line
+	2400 7200 2400 6250
+Wire Wire Line
+	2400 6250 2100 6250
+Wire Wire Line
+	2400 7200 2950 7200
+Wire Wire Line
+	2950 6450 2950 6000
+Wire Wire Line
+	2950 6000 1950 6000
+Wire Wire Line
+	2850 6950 2850 7350
+Wire Wire Line
+	2850 7350 2200 7350
+Wire Wire Line
+	2400 5350 2100 5350
+Wire Wire Line
+	2100 5350 2100 6250
+Wire Wire Line
+	2400 5200 1950 5200
+Wire Wire Line
+	1950 5200 1950 6000
+Wire Wire Line
+	2400 5050 1800 5050
+Wire Wire Line
+	1800 5050 1800 6500
+Wire Wire Line
+	1800 6500 2200 6500
+Wire Wire Line
+	2200 6500 2200 7350
+Wire Wire Line
+	2400 4900 1750 4900
+Wire Wire Line
+	1750 7050 2750 7050
+Wire Wire Line
+	2750 7050 2750 6950
+Wire Wire Line
+	1750 4900 1750 7050
+Text Notes 2750 7050 2    20   ~ 0
+GNDd
+Text Notes 2300 4900 2    20   ~ 0
+GNDd
+Wire Wire Line
+	2400 4750 2250 4750
+Wire Wire Line
+	2250 4750 2250 4450
+Wire Wire Line
+	2250 4450 4450 4450
+Wire Wire Line
+	4450 4450 4450 6450
+Text Notes 10700 850  2    118  ~ 0
+Mounting holes
+Text Notes 2300 4750 2    20   ~ 0
+5V
+Text Notes 4500 6400 1    20   ~ 0
+5V
+Text Notes 2850 7100 1    20   ~ 0
+arduino SS
+Text Notes 2950 7150 1    20   ~ 0
+arduino MOSI
+Text Notes 2950 6450 1    20   ~ 0
+arduino MISO\n
+Text Notes 2850 6450 1    20   ~ 0
+arduino SCK
+Wire Wire Line
+	3350 2900 3350 2150
+Wire Wire Line
+	2050 2150 2050 1650
+Wire Wire Line
+	2050 1650 1150 1650
+Wire Wire Line
+	1150 1650 1150 2150
+Wire Wire Line
+	2050 2150 3350 2150
+Wire Wire Line
+	1150 2150 1500 2150
+Text Notes 3350 2850 1    20   ~ 0
+3V3a
+Text Notes 1400 2150 2    20   ~ 0
+3V3a
+Wire Wire Line
+	2750 6450 2750 6350
+Wire Wire Line
+	2750 6350 1600 6350
+Wire Wire Line
+	1600 6350 1600 4150
+Wire Wire Line
+	1600 4150 2550 4150
+Wire Wire Line
+	2550 4150 2550 2550
+Wire Wire Line
+	2550 2550 3250 2550
+Wire Wire Line
+	3250 2550 3250 2900
+Text Notes 3250 2850 1    20   ~ 0
+GNDc
+Text Notes 2750 6350 2    20   ~ 0
+GNDc
+Wire Wire Line
+	5400 4800 5850 4800
+Wire Wire Line
+	5850 4800 5850 5200
+Wire Wire Line
+	5850 5200 4700 5200
+Wire Wire Line
+	4700 5200 4700 4350
+Wire Wire Line
+	4700 4350 2650 4350
+Wire Wire Line
+	2650 4350 2650 2600
+Wire Wire Line
+	2650 2600 3150 2600
+Wire Wire Line
+	3150 2600 3150 2900
+Text Notes 3150 2850 1    20   ~ 0
+D19
+Wire Wire Line
+	5400 4700 5850 4700
+Wire Wire Line
+	5850 4700 5850 4000
+Wire Wire Line
+	4650 4000 4650 4250
+Wire Wire Line
+	4650 4250 2750 4250
+Wire Wire Line
+	2750 4250 2750 2700
+Wire Wire Line
+	2750 2700 3050 2700
+Wire Wire Line
+	4650 4000 5850 4000
+Wire Wire Line
+	3050 2700 3050 2900
+Text Notes 3050 2800 3    20   ~ 0
+D18
+Text Notes 5100 2350 2    20   ~ 0
+arduino SCL (D21)
+Text Notes 5100 2200 2    20   ~ 0
+arduino SDA (D20)
+NoConn ~ 4700 1750
+NoConn ~ 4700 2050
+NoConn ~ 4700 1900
+$Comp
+L solarboat:GY-521 U3
+U 1 1 5E921A43
+P 4450 2400
+F 0 "U3" H 4158 2965 50  0000 C CNN
+F 1 "GY-521" H 4158 2874 50  0000 C CNN
+F 2 "" H 4450 2400 50  0001 C CNN
+F 3 "" H 4450 2400 50  0001 C CNN
+	1    4450 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4450 6950 4450 7150
+Wire Wire Line
+	4450 7150 4600 7150
+Wire Wire Line
+	4600 7150 4600 3350
+Wire Wire Line
+	4600 3350 4900 3350
+Wire Wire Line
+	4900 3350 4900 2650
+Wire Wire Line
+	4900 2650 4700 2650
+Text Notes 4850 2650 2    20   ~ 0
+5Vb
+Text Notes 4550 7150 2    20   ~ 0
+5Vb
+Wire Wire Line
+	4700 2500 5050 2500
+Wire Wire Line
+	5050 2500 5050 2700
+Wire Wire Line
+	6200 2700 6200 1900
+Wire Wire Line
+	6200 1900 5850 1900
+Text Notes 4900 2500 2    20   ~ 0
+GNDe
+Text Notes 5950 1900 2    20   ~ 0
+GNDe
+Wire Wire Line
+	5050 2700 6200 2700
+Wire Wire Line
+	5400 4900 6000 4900
+Wire Wire Line
+	6000 2800 5450 2800
+Wire Wire Line
+	5450 2800 5450 2200
+Wire Wire Line
+	6000 2800 6000 4900
+Wire Wire Line
+	4700 2200 5450 2200
+Wire Wire Line
+	6100 2750 5500 2750
+Wire Wire Line
+	5500 2750 5500 2350
+Wire Wire Line
+	5500 2350 4700 2350
+Wire Wire Line
+	6100 2750 6100 5000
+Wire Wire Line
+	5400 5000 6100 5000
+Text Notes 5550 4900 2    20   ~ 0
+D20
+Text Notes 5550 5000 2    20   ~ 0
+D21
+Wire Wire Line
+	4700 1600 4850 1600
+Wire Wire Line
+	4850 1600 4850 1350
+Wire Wire Line
+	4850 1350 3500 1350
+Wire Wire Line
+	3500 1350 3500 2850
+Wire Wire Line
+	3500 2850 3950 2850
+Wire Wire Line
+	3950 2850 3950 3500
+Wire Wire Line
+	3950 3500 4300 3500
+Wire Wire Line
+	4300 3500 4300 6050
+Wire Wire Line
+	4300 6050 4750 6050
+Wire Wire Line
+	4750 6050 4750 7250
+Wire Wire Line
+	4750 7250 4350 7250
+Wire Wire Line
+	4350 7250 4350 6950
+Text Notes 4350 7250 1    20   ~ 0
+D23
+Text Notes 4800 1600 2    20   ~ 0
+D23
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5EA4625A
+P 5850 5450
+F 0 "H6" H 5950 5496 50  0000 L CNN
+F 1 "MountingHole" H 5950 5405 50  0000 L CNN
+F 2 "" H 5850 5450 50  0001 C CNN
+F 3 "~" H 5850 5450 50  0001 C CNN
+	1    5850 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L solarboat:GY-521 U?
-U 1 1 5E921A43
-P 9150 3400
-F 0 "U?" H 8858 3965 50  0000 C CNN
-F 1 "GY-521" H 8858 3874 50  0000 C CNN
-F 2 "" H 9150 3400 50  0001 C CNN
-F 3 "" H 9150 3400 50  0001 C CNN
-	1    9150 3400
+L Mechanical:MountingHole H2
+U 1 1 5EA485F2
+P 2000 5700
+F 0 "H2" H 2100 5746 50  0000 L CNN
+F 1 "MountingHole" H 2100 5655 50  0000 L CNN
+F 2 "" H 2000 5700 50  0001 C CNN
+F 3 "~" H 2000 5700 50  0001 C CNN
+	1    2000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EA4A861
+P 2200 3900
+F 0 "H3" H 2300 3946 50  0000 L CNN
+F 1 "MountingHole" H 2300 3855 50  0000 L CNN
+F 2 "" H 2200 3900 50  0001 C CNN
+F 3 "~" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5EA4C810
+P 4150 3850
+F 0 "H4" H 4250 3896 50  0000 L CNN
+F 1 "MountingHole" H 4250 3805 50  0000 L CNN
+F 2 "" H 4150 3850 50  0001 C CNN
+F 3 "~" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EA4E92E
+P 1700 1500
+F 0 "H1" H 1800 1546 50  0000 L CNN
+F 1 "MountingHole" H 1800 1455 50  0000 L CNN
+F 2 "" H 1700 1500 50  0001 C CNN
+F 3 "~" H 1700 1500 50  0001 C CNN
+	1    1700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5EA5087E
+P 5450 1150
+F 0 "H5" H 5550 1196 50  0000 L CNN
+F 1 "MountingHole" H 5550 1105 50  0000 L CNN
+F 2 "" H 5450 1150 50  0001 C CNN
+F 3 "~" H 5450 1150 50  0001 C CNN
+	1    5450 1150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
